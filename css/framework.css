@@ -43,4 +43,7 @@ body {
 
 #portfolio .portfolio-item .secondary h2 {
 	margin-top: 0px;
+	background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }

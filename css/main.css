@@ -1,6 +1,11 @@
 /* add your styles here */
 #portfolio {
   position: relative;
+  perspective: 1000;
+}
+
+.portfolio-item {
+
 }
 
 .primary,
@@ -14,8 +19,10 @@
 
 .primary:hover {
   opacity:0;
+  transition: background-image 1s ease-in-out;
 }
 
 .secondary:hover {
   opacity: 1;
+  transition: background-image 1s ease-in-out;
 }
